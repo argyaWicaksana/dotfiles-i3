@@ -11,6 +11,8 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
+keymap("n", "<leader>t", ":tabnew<cr>", opts)
+keymap("n", "<leader>c", ":tabc<cr>", opts)
 
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
