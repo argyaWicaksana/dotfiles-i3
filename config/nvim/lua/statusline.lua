@@ -1,7 +1,6 @@
 vim.g.bubbly_statusline = {
   'mode',
-
-  'truncate',
+  'branch',
 
   'path',
 
@@ -116,7 +115,7 @@ vim.g.bubbly_colors = {
     path = {background = 'white', foreground = 'foreground'},
     modified = { background = 'lightgrey', foreground = 'foreground' },
   },
-  branch = 'purple',
+  branch = {background = 'purple', foreground = 'foreground'},
   signify = {
     added = 'green',
     modified = 'blue',
